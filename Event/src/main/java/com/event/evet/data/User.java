@@ -5,7 +5,6 @@
  */
 package com.event.evet.data;
 
-import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,13 +12,14 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import org.hibernate.annotations.GenericGenerator;
 
+
 /**
  *
  * @author FRANK
  */
 @Entity
 @Table(name = "user")
-public class User implements Serializable {
+public class User{// implements Serializable {
     
     private int idUser;
     private String name;
