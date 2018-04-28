@@ -5,10 +5,13 @@
  */
 package com.event.evet.repository;
 
+import com.event.evet.data.User;
+import org.springframework.data.repository.CrudRepository;
+
 /**
  *
  * @author FRANK
  */
-public interface UserRepository{
+public interface UserRepository extends CrudRepository<User, Integer>{
     
 }
